@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Dosis";
+  font-weight: 500;
+}
+
+header {
+  height: 5vh;
+  padding: 1% 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #162133;
+  color: #eeeeee;
+}
+
+section {
+  width: 100%;
+  padding: 0% 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  max-width: none;
+  background-color: #007edb;
+  height: 100vh;
+}
+
+section:nth-child(2n) {
+  background-color: #162133;
+}
+
+.hero {
+  height: 95vh;
+}
+
+h1 {
+  width: 100%;
+  font-size: 3rem;
+  color: #eeeeee;
+  font-weight: 600;
+  animation: left-right 3s ease;
+}
+
+@keyframes left-right {
+  from {
+    margin-left: -100%;
+  }
+  to {
+    margin-left: 0;
+  }
+}
+
+a {
+  color: #eeeeee;
+  font-weight: 500;
+  text-decoration: none;
+  position: relative;
+}
+
+a:hover {
+  opacity: 0.5;
+}
