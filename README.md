@@ -12,12 +12,9 @@ The landing page should provide knowledge and inspiration and has **two main pur
 
 - Conversion to collect email-addresses for further contact.
 - Provide an additional page where the user can enjoy more images of the product.
+
   <br>
   <br>
-
----
-
-<br>
 
 ## Installation Instructions
 
@@ -30,10 +27,9 @@ The landing page should provide knowledge and inspiration and has **two main pur
    - Open the index.html file in your browser.
 
 2. Or simply visit [Coming soon...](https://github.com/Hugocsundberg/CGWU)
-   <br>
-   <br>
 
----
+   <br>
+   <br>
 
 ## Crew
 
