@@ -1,25 +1,52 @@
+/* Font-family for headers (Dosis) */
 @font-face {
-  font-family: 'Dosis';
+  font-family: 'Dosis-Regular';
   font-weight: normal;
-  src: url('../fonts/Dosis-Regular.otf') format('opentype');
+  src: url('../fonts/dosis/Dosis-Regular.woff') format('woff'),
+    url('../fonts/dosis/Dosis-Regular.woff2') format('woff2');
 }
 
 @font-face {
-  font-family: 'Dosis';
-  font-weight: bold;
-  src: url('../fonts/Dosis-Bold.otf') format('opentype');
-}
-
-@font-face {
-  font-family: 'Dosis';
+  font-family: 'Dosis-Light';
   font-weight: 300;
-  src: url('../fonts/Dosis-Light.otf') format('opentype');
+  src: url('../fonts/dosis/Dosis-Light.woff') format('woff'),
+    url('../fonts/dosis/Dosis-Light.woff2') format('woff2');
 }
 
 @font-face {
-  font-family: 'Dosis';
+  font-family: 'Dosis-Medium';
   font-weight: 500;
-  src: url('../fonts/Dosis-Medium.otf') format('opentype');
+  src: url('../fonts/dosis/Dosis-Medium.woff') format('woff'),
+    url('../fonts/dosis/Dosis-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Dosis-Bold';
+  font-weight: bold;
+  src: url('../fonts/dosis/Dosis-Bold.woff') format('woff'),
+    url('../fonts/dosis/Dosis-Bold.woff2') format('woff2');
+}
+
+/* Font-family for body text (Helvetica */
+@font-face {
+  font-family: 'Helvetica';
+  font-weight: normal;
+  src: url('../fonts/helvetica/Helvetica.woff') format('woff'),
+    url('../fonts/helvetica/Helvetica.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Helvetica-Light';
+  font-weight: 300;
+  src: url('../fonts/helvetica/Helvetica-Light.woff') format('woff'),
+    url('../fonts/helvetica/Helvetica-Light.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Helvetica-Bold';
+  font-weight: bold;
+  src: url('../fonts/helvetica/Helvetica-Bold.woff') format('woff'),
+    url('../fonts/helvetica/Helvetica-Bold.woff2') format('woff2');
 }
 
 * {
@@ -28,8 +55,7 @@
 
 body {
   margin: 0;
-  font-family: 'Dosis';
-  font-weight: 500;
+  font-family: 'Helvetica';
 }
 
 header {
