@@ -1,0 +1,41 @@
+nav {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+  top: 0;
+  padding: 1.5rem;
+  height: 3.5rem;
+  width: 100vw;
+  background: linear-gradient(180deg, #000000 0%, #00000000 100%);
+}
+
+nav select {
+  text-transform: uppercase;
+  border: 0;
+  background: none;
+  color: var(--white);
+  font-size: 0.6rem;
+}
+
+nav img {
+  width: 5.5rem;
+}
+
+nav a:hover {
+  color: var(--accent-blue);
+}
+
+/* Styling for script to make the navigation bar disappear and reappear when scrolling up and down */
+.opacity {
+  top: 0;
+}
+.showNav {
+  top: 0;
+  transition: top ease-in-out 0.4s;
+}
+.hideNav {
+  top: -3.5em;
+  transition: top ease-in-out 0.4s;
+}

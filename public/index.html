@@ -1,35 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Layout</title>
-    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/styling.css" />
+    <link rel="stylesheet" href="css/navigation.css" />
+    <link rel="stylesheet" href="css/page-one.css" />
   </head>
   <body>
-    <header>Logo <a href="" onclick="return false">Merch</a></header>
-
-    <section class="hero">
-        <h1>Section 1</h1>
+    <!-- Landing page with navigation bar -->
+    <section class="page-on">
+      <div class="bg-image">
+        <img
+          src="/images/placeholder images/page-one.jpeg"
+          alt="White sports car in a dark garage"
+        />
       </div>
+
+      <!-- Navigation bar -->
+      <nav>
+        <img src="images//logo/placeholder-logo.png" alt="placeholder logo" />
+        <ul>
+          <li><a href="" onclick="return false">Newsletter</a></li>
+          <li><a href="" onclick="return false">Merch</a></li>
+          <li>
+            <select>
+              <option value="english">EN</option>
+              <option value="swedish">SE</option>
+            </select>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Landing page content -->
+      <h1>Electric</h1>
+      <p>Wow so electric</p>
     </section>
 
-    <section>
-      <div class="content">
-        <h1>Section 2</h1>
+    <!-- Second page -->
+    <section class="page-two">
+      <div class="bg-image">
+        <img
+          src="/images/placeholder images/page-two.jpeg"
+          loading="lazy"
+          alt="Blue sports car in an industrial area"
+        />
       </div>
+      <!-- Second page content -->
+      <h1>Experience</h1>
+      <p>Wow much experience</p>
     </section>
-
-    <section>
-      <div class="content">
-        <h1>Section 3</h1>
-      </div>
-    </section>
-
-    <section>
-      <div class="content">
-        <h1>Section 4</h1>
-      </div>
-    </section>
+    <script src="js/scroll.js"></script>
   </body>
 </html>

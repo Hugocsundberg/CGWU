@@ -1,0 +1,55 @@
+h1 {
+  font-family: var(--font-header);
+  font-size: 2.25rem;
+}
+
+h2 {
+  font-family: var(--font-header);
+  font-size: 1.125rem;
+}
+
+h1,
+h2 {
+  color: var(--white);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+li {
+  margin: 1rem;
+}
+
+p,
+a,
+li {
+  font-family: var(--font-content);
+  font-size: 1rem;
+  color: var(--white);
+}
+
+a {
+  text-decoration: none;
+}
+
+.bg-image {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+}
+
+.bg-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.bg-image + h1 {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+}

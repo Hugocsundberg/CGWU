@@ -49,69 +49,38 @@
     url('../fonts/helvetica/Helvetica-Bold.woff2') format('woff2');
 }
 
+:root {
+  /* Color "Palette" */
+  --white: #eeeeee;
+  --gray: #a6a6a6;
+  --black: #000000;
+  --main: #162133;
+  --accent-blue: #007edb;
+  --accent-orange: #ff9432;
+
+  /* Font Families */
+  --font-header: 'Dosis-Bold', Verdana, sans-serif;
+  --font-content: 'Helvetica', Arial, sans-serif;
+}
+
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
+  margin: 0;
+}
+
+html {
+  font-size: 16px;
 }
 
 body {
   margin: 0;
-  font-family: 'Helvetica';
-}
-
-header {
-  height: 5vh;
-  padding: 1% 5%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #162133;
-  color: #eeeeee;
+  padding: 0;
 }
 
 section {
-  width: 100%;
-  padding: 0% 10%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0;
-  max-width: none;
-  background-color: #007edb;
   height: 100vh;
-}
-
-section:nth-child(2n) {
-  background-color: #162133;
-}
-
-.hero {
-  height: 95vh;
-}
-
-h1 {
-  width: 100%;
-  font-size: 3rem;
-  color: #eeeeee;
-  font-weight: 600;
-  animation: left-right 3s ease;
-}
-
-@keyframes left-right {
-  from {
-    margin-left: -100%;
-  }
-  to {
-    margin-left: 0;
-  }
-}
-
-a {
-  color: #eeeeee;
-  font-weight: 500;
-  text-decoration: none;
+  width: 100vw;
   position: relative;
-}
-
-a:hover {
-  opacity: 0.5;
+  overflow: hidden;
 }
