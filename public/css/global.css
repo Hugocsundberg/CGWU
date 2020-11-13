@@ -91,6 +91,11 @@ section {
   animation: fadeIn 2s forwards;
 }
 
+.scrollKeeper {
+  height: 1px;
+  content: "";
+}
+
 @keyframes fadeIn {
   from{
     transform: translateY(200px);
