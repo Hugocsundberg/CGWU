@@ -83,4 +83,10 @@ section {
   width: 100vw;
   position: relative;
   overflow: hidden;
+  opacity: 0;
+  transition: 3s;
+}
+
+.sectionActive {
+  opacity: 1;
 }
