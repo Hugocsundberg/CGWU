@@ -1,6 +1,7 @@
 observerCallback = (entries) => {
     entries.forEach((entry) => {
         if(entry.isIntersecting) {
+            //Add section animation
             entry.target.classList.add('sectionActive')
         }
     })
