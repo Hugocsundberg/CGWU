@@ -87,13 +87,12 @@ section {
   transition: 3s;
 }
 
-.sectionActive {
-  animation: fadeIn 2s forwards;
+.displayNone {
+  display: none;
 }
 
-.scrollKeeper {
-  height: 1px;
-  content: "";
+.sectionActive {
+  animation: fadeIn 2s forwards;
 }
 
 @keyframes fadeIn {
@@ -105,4 +104,9 @@ section {
     transform: translateY(0px);
     opacity: 1;
   }
+}
+
+.scrollKeeper {
+  height: 1px;
+  content: "";
 }
