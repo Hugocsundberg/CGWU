@@ -87,20 +87,25 @@ section {
   transition: 3s;
 }
 
+.newsletter-section {
+  height: 30vh;
+  width: 100%;
+}
+
 .displayNone {
   display: none;
 }
 
 .sectionActive {
-  animation: fadeIn .5s forwards;
+  animation: fadeIn 0.5s forwards;
 }
 
 @keyframes fadeIn {
-  from{
+  from {
     transform: translateY(200px);
     opacity: 0;
   }
-  to{
+  to {
     transform: translateY(0px);
     opacity: 1;
   }
@@ -108,5 +113,5 @@ section {
 
 .scrollKeeper {
   height: 1px;
-  content: "";
+  content: '';
 }

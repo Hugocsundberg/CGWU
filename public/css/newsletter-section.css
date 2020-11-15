@@ -1,0 +1,50 @@
+.newsletter-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: var(--main);
+  color: var(--white);
+}
+
+.newsletterForm {
+  text-align: center;
+  background-color: var(--main);
+  width: 100%;
+  z-index: 1;
+}
+
+.newsletterForm label {
+  font-family: 'Dosis-Bold', Verdana, sans-serif;
+  letter-spacing: 3px;
+  line-height: 1.2;
+  display: block;
+  font-size: 1.25rem;
+  padding: 1.5rem;
+}
+
+.newsletterForm input {
+  font-family: 'Helvetica', Arial, sans-serif;
+  all: unset;
+  text-align: left;
+  padding-left: 10px;
+  background-color: var(--white);
+  color: var(--gray);
+  width: 60%;
+  height: 3em;
+  cursor: text;
+}
+
+.newsletterForm button {
+  font-family: 'Helvetica', Arial, sans-serif;
+  all: unset;
+  font-weight: 600;
+  width: 30%;
+  height: 3rem;
+  background-color: var(--accent-orange);
+  cursor: pointer;
+}
+
+.newsletterForm button:hover {
+  background-color: #ffab3d;
+}

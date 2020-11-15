@@ -1,0 +1,26 @@
+.section-2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+h1 {
+  position: absolute;
+  top: 15vh;
+  z-index: 1;
+}
+
+p {
+  position: absolute;
+  top: 20vh;
+  z-index: 1;
+}
+
+.section-2 h1 {
+  color: var(--black);
+}
+
+.section-2 p {
+  color: var(--black);
+}

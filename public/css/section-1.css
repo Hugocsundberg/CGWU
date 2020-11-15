@@ -1,4 +1,4 @@
-.section-one {
+.section-1 {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -15,4 +15,12 @@ p {
   position: absolute;
   top: 20vh;
   z-index: 1;
+}
+
+.section-1 h1 {
+  color: var(--white);
+}
+
+.section-1 p {
+  color: var(--white);
 }

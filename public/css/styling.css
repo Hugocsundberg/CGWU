@@ -8,11 +8,6 @@ h2 {
   font-size: 1.125rem;
 }
 
-h1,
-h2 {
-  color: var(--white);
-}
-
 ul {
   list-style: none;
   padding: 0;

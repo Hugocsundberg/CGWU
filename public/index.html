@@ -7,15 +7,17 @@
     <link rel="stylesheet" href="css/global.css" />
     <link rel="stylesheet" href="css/styling.css" />
     <link rel="stylesheet" href="css/navigation.css" />
-    <link rel="stylesheet" href="css/section-one.css" />
-    <link rel="stylesheet" href="css/section-two.css" />
+    <link rel="stylesheet" href="css/newsletter-section.css" />
+    <link rel="stylesheet" href="css/section-1.css" />
+    <link rel="stylesheet" href="css/section-2.css" />
+    <link rel="stylesheet" href="css/section-3.css" />
   </head>
   <body>
     <!-- This div is to keep scroll on top when first section animates-->
     <div class="scrollKeeper"></div>
     <!-- Navigation -->
     <nav>
-      <img src="images//logo/placeholder-logo.png" alt="placeholder logo" />
+      <img src="images/logo/placeholder-logo.png" alt="placeholder logo" />
       <ul>
         <li><a href="" onclick="return false">Newsletter</a></li>
         <li><a href="" onclick="return false">Merch</a></li>
@@ -29,13 +31,19 @@
     </nav>
 
     <!-- Section 1 -->
-    <section class="section-one">
+    <section class="section-1">
       <div class="bg-image">
-        <img
-          loading="lazy"
-          src="images/placeholder images/page-one.jpeg"
-          alt="White sports car in a dark garage"
-        />
+        <picture>
+          <source
+            srcset="images/placeholder-images/desktop/1D.jpeg"
+            media="(min-width: 692px)"
+          />
+          <img
+            loading="lazy"
+            src="images/placeholder-images/mobile/1M.jpeg"
+            alt="Placeholder image of car"
+          />
+        </picture>
       </div>
 
       <!-- Section 1 content -->
@@ -43,14 +51,36 @@
       <p>Wow so electric</p>
     </section>
 
-    <!-- Section 2 -->
-    <section class="section-two">
-      <div class="bg-image">
-        <img
-          loading="lazy"
-          src="images/placeholder images/page-two.jpeg"
-          alt="Blue sports car in an industrial area"
+    <section class="newsletter-section">
+      <form class="newsletterForm" method="post" action="index.html">
+        <label for="email"
+          >Subscribe to our newsletter for exclusive updates</label
+        >
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="your@email.com"
+          required
         />
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+
+    <!-- Section 2 -->
+    <section class="section-2">
+      <div class="bg-image">
+        <picture>
+          <source
+            srcset="images/placeholder-images/desktop/2D.jpeg"
+            media="(min-width: 692px)"
+          />
+          <img
+            loading="lazy"
+            src="images/placeholder-images/mobile/2M.jpeg"
+            alt="Placeholder image of car"
+          />
+        </picture>
       </div>
       <!-- Section 2 content -->
       <h1>Experience</h1>
@@ -58,17 +88,23 @@
     </section>
 
     <!-- Section 3 -->
-    <section class="section-two">
+    <section class="section-3">
       <div class="bg-image">
-        <img
-          loading="lazy"
-          src="images/placeholder images/page-two.jpeg"
-          alt="Blue sports car in an industrial area"
-        />
+        <picture>
+          <source
+            srcset="images/placeholder-images/desktop/3D.jpeg"
+            media="(min-width: 692px)"
+          />
+          <img
+            loading="lazy"
+            src="images/placeholder-images/mobile/3M.jpeg"
+            alt="Placeholder image of car"
+          />
+        </picture>
       </div>
-      <!-- Section 2 content -->
-      <h1>Experience</h1>
-      <p>Wow much experience</p>
+      <!-- Section 3 content -->
+      <h1>Future</h1>
+      <p>Wow such future</p>
     </section>
     <script src="js/scroll.js"></script>
     <script src="js/intersect.js"></script>
