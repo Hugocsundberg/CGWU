@@ -92,7 +92,7 @@ section {
 }
 
 .sectionActive {
-  animation: fadeIn 2s forwards;
+  animation: fadeIn .5s forwards;
 }
 
 @keyframes fadeIn {
