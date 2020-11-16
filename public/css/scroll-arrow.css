@@ -1,0 +1,26 @@
+.scroll-arrow-flex-container {
+    height: 4rem;
+    bottom: 1rem;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.scroll-arrow {
+    position: absolute; 
+    height: 4rem;
+    width: 4rem;
+    /* bottom: 1rem; */
+    /* left: 50%; */
+    /* transform: translate(-50%); */
+    background: url(../images/carbon_chevron-down-shadow.svg);
+    transition: .7s;
+    background-position: center;
+}
+
+.scroll-arrow-bottom {
+    transform: rotate(180deg);
+}
