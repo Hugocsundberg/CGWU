@@ -7,6 +7,7 @@
     justify-content: center;
     align-items: center;
     z-index: 1;
+    pointer-events: none;
 }
 
 .scroll-arrow {
@@ -19,6 +20,7 @@
     background: url(../images/carbon_chevron-down-shadow.svg);
     transition: .7s;
     background-position: center;
+    pointer-events: all;
 }
 
 .scroll-arrow-bottom {
