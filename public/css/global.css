@@ -84,7 +84,7 @@ section {
   position: relative;
   overflow: hidden;
   opacity: 0;
-  transition: 3s;
+  transition: 1.2s;
 }
 
 .newsletter-section {
