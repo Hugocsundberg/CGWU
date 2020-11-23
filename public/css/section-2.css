@@ -7,7 +7,7 @@
 
 .section-2 h1 {
   text-align: center;
-  color: var(--black);
+  color: var(--white);
   width: 85%;
   padding-top: 15vh;
   line-height: 1.5;
@@ -17,7 +17,7 @@
 @media only screen and (min-width: 800px) {
   .section-2 h1 {
     text-align: left;
-    padding-top: 25vh;
+    padding-top: 10vh;
     margin-left: 5vw;
   }
 }

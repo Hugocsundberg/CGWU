@@ -13,9 +13,9 @@
   z-index: 1;
 }
 
-/* .color-buttons input {
-    display: none;
-  } */
+.color-buttons input {
+  display: none;
+}
 
 .button {
   display: inline-block;
