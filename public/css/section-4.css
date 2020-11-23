@@ -41,7 +41,6 @@
 }
 
 .button span:hover {
-  filter: brightness(125%);
   padding: 1.25rem;
 }
 
