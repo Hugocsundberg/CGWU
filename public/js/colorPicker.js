@@ -56,11 +56,19 @@ const desktop = [
   },
 ];
 
-const colorButtons = document.querySelectorAll('.color-buttons label input');
-console.log(colorButtons);
+const colorButtons = document.querySelectorAll('.color-buttons label .button');
 colorButtons.forEach((button) => {
-  button.addEventListener('click', () => {
-    
+  button.addEventListener('click', (e) => {
+    if(e.target.parentElement.parentElement.classList.contains('white')) {
+      document.querySelector('section.section-4 .bg-image img').src="/public/images/bg/color/desktop/Desktop-5-white.jpg"
+    } else if (e.target.parentElement.parentElement.classList.contains('yellow')) {
+      document.querySelector('section.section-4 .bg-image img').src="/public/images/bg/color/desktop/Desktop-5-yellow.jpg"
+    } else if (e.target.parentElement.parentElement.classList.contains('red')) {
+      document.querySelector('section.section-4 .bg-image img').src="/public/images/bg/color/desktop/Desktop-5-red.jpg"
+    } else if (e.target.parentElement.parentElement.classList.contains('blue')) {
+      document.querySelector('section.section-4 .bg-image img').src="/public/images/bg/color/desktop/Desktop-5-blue.jpg"
+    } 
+
   });
 });
 
