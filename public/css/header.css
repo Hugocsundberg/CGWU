@@ -1,0 +1,54 @@
+.nav-bar {
+  background: linear-gradient(180deg, #000000 0%, #00000000 100%);
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  width: 100vw;
+  height: 4.5rem;
+  z-index: 100;
+  padding: 2rem;
+}
+
+.nav-bar img {
+  height: 1.5rem;
+  filter: invert(100%);
+}
+
+.nav-bar select {
+  text-transform: uppercase;
+  border: 0;
+  background: none;
+  color: var(--white);
+  font-size: 0.7rem;
+  margin-bottom: 0.5rem;
+}
+
+.nav-bar select:hover {
+  color: var(--accent-blue);
+}
+
+.nav-bar a:hover {
+  color: var(--accent-blue);
+}
+
+.opacity {
+  top: 0;
+}
+
+.showNav {
+  top: 0;
+  transition: top ease-in-out 0.5s;
+}
+
+.hideNav {
+  top: -4.5rem;
+  transition: top ease-in-out 0.5s;
+}
+
+@media only screen and (min-width: 800px) {
+  .nav-bar img {
+    height: 2.25rem;
+  }
+}

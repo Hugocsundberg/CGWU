@@ -2,51 +2,44 @@
 @font-face {
   font-family: 'Dosis-Regular';
   font-weight: normal;
-  src: url('../fonts/dosis/Dosis-Regular.woff') format('woff'),
-    url('../fonts/dosis/Dosis-Regular.woff2') format('woff2');
+  src: url('../fonts/dosis/Dosis-Regular.woff') format('woff'), url('../fonts/dosis/Dosis-Regular.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'Dosis-Light';
   font-weight: 300;
-  src: url('../fonts/dosis/Dosis-Light.woff') format('woff'),
-    url('../fonts/dosis/Dosis-Light.woff2') format('woff2');
+  src: url('../fonts/dosis/Dosis-Light.woff') format('woff'), url('../fonts/dosis/Dosis-Light.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'Dosis-Medium';
   font-weight: 500;
-  src: url('../fonts/dosis/Dosis-Medium.woff') format('woff'),
-    url('../fonts/dosis/Dosis-Medium.woff2') format('woff2');
+  src: url('../fonts/dosis/Dosis-Medium.woff') format('woff'), url('../fonts/dosis/Dosis-Medium.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'Dosis-Bold';
   font-weight: bold;
-  src: url('../fonts/dosis/Dosis-Bold.woff') format('woff'),
-    url('../fonts/dosis/Dosis-Bold.woff2') format('woff2');
+  src: url('../fonts/dosis/Dosis-Bold.woff') format('woff'), url('../fonts/dosis/Dosis-Bold.woff2') format('woff2');
 }
 
 /* Font-family for body text (Helvetica */
 @font-face {
   font-family: 'Helvetica';
   font-weight: normal;
-  src: url('../fonts/helvetica/Helvetica.woff') format('woff'),
-    url('../fonts/helvetica/Helvetica.woff2') format('woff2');
+  src: url('../fonts/helvetica/Helvetica.woff') format('woff'), url('../fonts/helvetica/Helvetica.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'Helvetica-Light';
   font-weight: 300;
-  src: url('../fonts/helvetica/Helvetica-Light.woff') format('woff'),
-    url('../fonts/helvetica/Helvetica-Light.woff2') format('woff2');
+  src: url('../fonts/helvetica/Helvetica-Light.woff') format('woff'), url('../fonts/helvetica/Helvetica-Light.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'Helvetica-Bold';
   font-weight: bold;
-  src: url('../fonts/helvetica/Helvetica-Bold.woff') format('woff'),
-    url('../fonts/helvetica/Helvetica-Bold.woff2') format('woff2');
+  src: url('../fonts/helvetica/Helvetica-Bold.woff') format('woff'), url('../fonts/helvetica/Helvetica-Bold.woff2') format('woff2');
 }
 
 :root {
@@ -63,14 +56,13 @@
   --font-content: 'Helvetica', Arial, sans-serif;
 }
 
+html {
+  font-size: 16px;
+}
+
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
-  margin: 0;
-}
-
-html {
-  font-size: 16px;
 }
 
 body {
@@ -79,17 +71,21 @@ body {
 }
 
 section {
-  height: 100vh;
   width: 100vw;
+  height: 100vh;
   position: relative;
-  overflow: hidden;
-  opacity: 0;
-  transition: 1.2s;
 }
 
-.newsletter-section {
-  height: 30vh;
+.bg-image {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+}
+
+.bg-image img {
+  height: 100%;
   width: 100%;
+  object-fit: cover;
 }
 
 .displayNone {
@@ -97,7 +93,7 @@ section {
 }
 
 .sectionActive {
-  animation: fadeIn 1.2s forwards;
+  animation: fadeIn 0.8s forwards;
 }
 
 @keyframes fadeIn {

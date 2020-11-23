@@ -1,26 +1,23 @@
 .section-2 {
   display: flex;
-  align-items: center;
   flex-direction: column;
-  position: relative;
-}
-
-h1 {
-  position: absolute;
-  top: 15vh;
-  z-index: 1;
-}
-
-p {
-  position: absolute;
-  top: 20vh;
-  z-index: 1;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .section-2 h1 {
+  text-align: center;
   color: var(--black);
+  width: 85%;
+  margin-top: 10vh;
+  line-height: 1.5;
+  z-index: 1;
 }
 
-.section-2 p {
-  color: var(--black);
+@media only screen and (min-width: 800px) {
+  .section-2 h1 {
+    text-align: left;
+    margin-top: 25vh;
+    margin-left: 5vw;
+  }
 }

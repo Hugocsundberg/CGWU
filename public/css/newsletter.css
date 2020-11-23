@@ -1,0 +1,88 @@
+.popup {
+  background-color: #00000095;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 101;
+}
+
+.popup-content {
+  height: 40%;
+  width: 80%;
+  border-radius: 1%;
+  background-color: var(--main);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.popup-content label {
+  text-align: center;
+  display: block;
+  color: var(--white);
+  font-weight: 600;
+}
+
+.popup-content input {
+  margin: 20px auto;
+  display: block;
+  width: 80%;
+  padding: 0.5rem;
+  border: 1px solid var(--gray);
+  padding-bottom: 0.5rem;
+}
+
+.popup-content button {
+  width: 30%;
+  height: 2rem;
+  background-color: var(--accent-orange);
+}
+
+.close-btn {
+  position: absolute;
+  cursor: pointer;
+  left: 5px;
+  top: 5px;
+  width: 32px;
+  height: 32px;
+  opacity: 0.6;
+}
+.close-btn:hover {
+  opacity: 1;
+}
+.close-btn:before,
+.close-btn:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 2px;
+  background-color: var(--white);
+}
+.close-btn:before {
+  transform: rotate(45deg);
+}
+.close-btn:after {
+  transform: rotate(-45deg);
+}
+
+@media only screen and (min-width: 800px) {
+  .popup-content {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .popup-content {
+    width: 30%;
+  }
+  .popup-content button {
+    width: 20%;
+  }
+}

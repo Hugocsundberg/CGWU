@@ -1,19 +1,38 @@
 .section-3 {
   display: flex;
-  align-items: center;
   flex-direction: column;
-  position: relative;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .section-3 h1 {
-  top: 15vh;
-  z-index: 1;
+  text-align: center;
   color: var(--black);
+  width: 85%;
+  margin-top: 10vh;
+  line-height: 1.5;
+  z-index: 1;
 }
 
-.section-3 p {
-  top: 80vh;
-  z-index: 1;
+.section-3 h2 {
+  display: none;
+  text-align: center;
   color: var(--black);
-  font-weight: 600;
+  width: 85%;
+  margin-top: 10vh;
+  line-height: 1.5;
+  z-index: 1;
+  font-size: 1.5rem;
+}
+
+@media only screen and (min-width: 800px) {
+  .section-3 h1 {
+    text-align: right;
+    margin-top: 20vh;
+  }
+  .section-3 h2 {
+    display: flex;
+    text-align: left;
+    margin-top: 0;
+  }
 }
