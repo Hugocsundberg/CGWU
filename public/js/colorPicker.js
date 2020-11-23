@@ -56,11 +56,11 @@ const desktop = [
   },
 ];
 
-const colorButtons = document.querySelectorAll('.color-buttons label > input');
+const colorButtons = document.querySelectorAll('.color-buttons label input');
 console.log(colorButtons);
-colorButtons.array.forEach((button) => {
+colorButtons.forEach((button) => {
   button.addEventListener('click', () => {
-    console.log('ok');
+    
   });
 });
 
