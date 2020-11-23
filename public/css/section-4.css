@@ -7,7 +7,7 @@
 
 .color-buttons {
   text-align: center;
-  width: 80%;
+  width: 90%;
   margin-top: 80vh;
   line-height: 1.5;
   z-index: 1;
@@ -23,7 +23,7 @@
   cursor: pointer;
   width: 1.5rem;
   height: 1.5rem;
-  margin: 1.25rem;
+  margin: 1rem;
   z-index: 1;
 }
 

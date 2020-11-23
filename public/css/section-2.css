@@ -9,7 +9,7 @@
   text-align: center;
   color: var(--black);
   width: 85%;
-  margin-top: 10vh;
+  padding-top: 15vh;
   line-height: 1.5;
   z-index: 1;
 }
@@ -17,7 +17,7 @@
 @media only screen and (min-width: 800px) {
   .section-2 h1 {
     text-align: left;
-    margin-top: 25vh;
+    padding-top: 25vh;
     margin-left: 5vw;
   }
 }

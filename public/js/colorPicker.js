@@ -1,10 +1,6 @@
 // Script to load background images depending on screen-width and to create buttons for our color-picker.
 const img = document.querySelector('#color-bg');
 
-window.addEventListener('resize', function () {
-  window.location.reload();
-});
-
 // const isMobile = window.innerWidth < 800 ? true : false;
 // window.addEventlistener('resize', ()=>{
 
@@ -59,9 +55,7 @@ const desktop = [
 const colorButtons = document.querySelectorAll('.color-buttons label input');
 console.log(colorButtons);
 colorButtons.forEach((button) => {
-  button.addEventListener('click', () => {
-    
-  });
+  button.addEventListener('click', () => {});
 });
 
 // const index = 0;

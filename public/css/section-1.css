@@ -9,16 +9,16 @@
   text-align: center;
   color: var(--white);
   width: 85%;
-  margin-top: 20vh;
+  padding-top: 10vh;
   line-height: 1.5;
   z-index: 1;
 }
 
 .section-1 form {
-  background-color: #00000060;
+  background-color: #00000080;
   text-align: center;
-  margin-top: 50vh;
-  width: 80vw;
+  margin-top: 55vh;
+  width: 80%;
   height: 6.5rem;
   z-index: 1;
 }
@@ -59,19 +59,17 @@
     align-items: flex-start;
   }
   .section-1 h1 {
-    text-align: left;
-    margin-top: 20vh;
-    margin-left: 5vw;
+    text-align: right;
+    width: 90%;
+    margin-right: 5vw;
   }
   .section-1 form {
-    text-align: center;
-    width: 25vw;
+    width: 25%;
     height: 8rem;
     margin-left: 5vw;
-    margin-top: 35vh;
   }
   .section-1 label {
-    text-align: left;
+    text-align: right;
   }
   .section-1 input {
     text-align: left;
