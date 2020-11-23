@@ -1,5 +1,5 @@
 .double-height {
-    height: 200vh;
+  height: 200vh;
 }
 
 section.grid-section .grid {
@@ -8,77 +8,88 @@ section.grid-section .grid {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 16.66666%);
     background: rgb(151, 41, 41);
-    transition: 1.2s;
 }
 
 section.grid-section .grid-item1 {
-  background: blue;
+  background: url(/public/images/grid/Förslag1.jpg);
+  background-size: cover;
+  background-position: center;
 }
 section.grid-section .grid-item2 {
-  background: rgb(79, 79, 95);
+  background: url(/public/images/grid/Förslag2.jpg);
+  background-size: cover;
+  background-position: center;
 }
 section.grid-section .grid-item3 {
-   background: rgb(253, 32, 117);
+  background: url(/public/images/grid/Förslag3.jpg);
+  background-size: cover;
+  background-position: center;
 }
 section.grid-section .grid-item4 {
-  background: rgb(73, 122, 86);
+  background: url(/public/images/grid/Förslag4.jpg);
+  background-size: cover;
+  background-position: center;
 }
 section.grid-section .grid-item5 {
-   background: rgb(214, 214, 214);
+  background: url(/public/images/grid/Förslag_extra_miljö.png);
+  background-size: cover;
+  background-position: center;
 }
 section.grid-section .grid-item6 {
-   background: rgb(238, 218, 41);
+  background: url(/public/images/grid/Bildpåinsidan3.png);
+  background-size: cover;
+  background-position: center;
 }
 
 section.grid-section .grid .expand {
-    position: absolute;
-    bottom: 0;
-    display: flex;
-    width: 100%;
-    height: 6rem;
-    padding: 1rem;
-    justify-content: start;
-    align-items: center;
-    /* background: rgb(0, 255, 21); */
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  height: 6rem;
+  padding: 1rem;
+  justify-content: start;
+  align-items: center;
+  /* background: rgb(0, 255, 21); */
 }
 
 section.grid-section .grid .expand button {
-    border: none;
-    height: 100%;
-    width: 7rem;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    align-items: center;    
-    position: relative;
-    background: none;
-    cursor: pointer;
+  border: none;
+  height: 100%;
+  width: 7rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  background: none;
+  cursor: pointer;
 }
 
 section.grid-section .grid .expand button p {
-pointer-events: none;
-top: 0;
-position: relative;
-font-size: 1.6rem;
+  pointer-events: none;
+  top: 0;
+  position: relative;
+  font-size: 1.6rem;
 }
 
 section.grid-section .grid .expand button img {
-    pointer-events: none;
-    height: 2rem;
-    width: 2rem;
-    position: relative;
-    transition: .7s;
+  pointer-events: none;
+  height: 2rem;
+  width: 2rem;
+  position: relative;
+  transition: 0.7s;
 }
 
-@media (min-width: 800px)  {
-    section.grid-section .grid{
-        height: 100vh;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, 50%);
-        background: rgb(57, 186, 152);
-    }
+@media (min-width: 800px) {
+  section.grid-section .grid {
+    height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 50%);
+    background: black;
+  }
 
-    section.grid-section .grid .expand {
-        display: none;
-    }
-} 
+  section.grid-section .grid .expand {
+    display: none;
+  }
+}
