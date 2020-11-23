@@ -8,6 +8,7 @@ section.grid-section .grid {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 16.66666%);
     background: rgb(151, 41, 41);
+    transition: 1.2s;
 }
 
 section.grid-section .grid-item1 {
