@@ -1,0 +1,15 @@
+.content-box {
+    /* height: 30rem; */
+    width: 25rem;
+    padding: 2rem 1rem;
+    background: #162133c5;
+    backdrop-filter: blur(3px);
+    border-radius: 20px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica; 
+    box-shadow: 11px 10px 52px -12px rgba(0,0,0,0.75);
+}
+

@@ -14,10 +14,26 @@
   z-index: 1;
 }
 
+.section-2 .content-box {
+  position: absolute;
+  right: unset;
+  bottom: unset;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
 @media only screen and (min-width: 800px) {
   .section-2 h1 {
     text-align: left;
     padding-top: 10vh;
     margin-left: 5vw;
   }
+
+  .section-2 .content-box {
+    right: 10%;
+    bottom: 15%;
+  }
 }
+
