@@ -1,156 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Electric</title>
-    <link rel="stylesheet" href="css/booking-popup.css" />
-    <link rel="stylesheet" href="css/grid-section.css" />
-    <link rel="stylesheet" href="css/header.css" />
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/scroll-arrow.css" />
-    <link rel="stylesheet" href="css/section-1.css" />
-    <link rel="stylesheet" href="css/section-2.css" />
-    <link rel="stylesheet" href="css/section-3.css" />
-    <link rel="stylesheet" href="css/section-4.css" />
-    <link rel="stylesheet" href="css/typography.css" />
-  </head>
-  <body>
-    <!-- This div is to keep scroll on top when first section animates-->
-    <div class="scrollKeeper"></div>
 
-    <header>
-      <!-- Navigation bar -->
-      <nav class="nav-bar">
-        <img src="images/logo/logo.png" alt="placeholder logo" />
-        <ul>
-          <li><a href="" id="bookingBtn">Booking</a></li>
-          <li><a href="" id="merchBtn">Merch</a></li>
-          <li>
-            <select>
-              <option value="english">EN</option>
-              <option value="swedish">SE</option>
-            </select>
-          </li>
-        </ul>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Electric</title>
+  <link rel="stylesheet" href="css/booking-popup.css" />
+  <link rel="stylesheet" href="css/grid-section.css" />
+  <link rel="stylesheet" href="css/header.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/scroll-arrow.css" />
+  <link rel="stylesheet" href="css/section-1.css" />
+  <link rel="stylesheet" href="css/section-2.css" />
+  <link rel="stylesheet" href="css/section-3.css" />
+  <link rel="stylesheet" href="css/section-4.css" />
+  <link rel="stylesheet" href="css/typography.css" />
+  <link rel="stylesheet" href="css/newsletter.css" />
+</head>
 
-    <!-- Scroll arrow -->
-    <div class="scroll-arrow-flex-container">
-      <div class="scroll-arrow"></div>
+<body>
+  <!-- This div is to keep scroll on top when first section animates-->
+  <div class="scrollKeeper"></div>
+
+  <header>
+    <!-- Navigation bar -->
+    <nav class="nav-bar">
+      <img src="images/logo/logo.png" alt="placeholder logo" />
+      <ul>
+        <li><a href="" id="bookingBtn">Booking</a></li>
+        <li><a href="" id="merchBtn">Merch</a></li>
+        <li>
+          <select>
+            <option value="english">EN</option>
+            <option value="swedish">SE</option>
+          </select>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Scroll arrow -->
+  <div class="scroll-arrow-flex-container">
+    <div class="scroll-arrow"></div>
+  </div>
+
+  <!-- Booking popup window -->
+  <div class="popup">
+    <div class="popup-content">
+      <a href="" class="close-btn" id="close"></a>
+      <form method="post" action="index.html">
+        <label for="email">Book test drive</label>
+        <input type="text" name="name" id="name" placeholder="Name" required />
+        <input type="date" name="date" id="date" placeholder="Last name" required />
+        <input type="time" name="time" id="time" placeholder="Last name" required />
+        <input type="email" name="booking-email" id="booking-email" placeholder="email" required />
+        <button type="submit">Book</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Section 1 (Landing Page) -->
+  <section class="section-1">
+    <div class="bg-image">
+      <picture>
+        <source srcset="images/bg/desktop/lalala.png" media="(min-width: 800px)" />
+        <img loading="lazy" src="images/bg/desktop/lalala.png" alt="Placeholder image of car" />
+      </picture>
     </div>
 
-    <!-- Booking popup window -->
-    <div class="popup">
-      <div class="popup-content">
-        <a href="" class="close-btn" id="close"></a>
-        <form method="post" action="index.html">
-          <label for="email">Book test drive</label>
-          <input type="text" name="name" id="name" placeholder="Name" required />
-          <input type="date" name="date" id="date" placeholder="Last name" required />
-          <input type="time" name="time" id="time" placeholder="Last name" required />
-          <input type="email" name="booking-email" id="booking-email" placeholder="email" required />
-          <button type="submit">Book</button>
-        </form>
+    <!-- Section 1 (Landing Page) content -->
+    <h1>You are special. <br />Electric.</h1>
+    <div class="newsletter">
+      <div class="upper-half">
+        <p>Subscribe to receive exclusive updates!</p>
+      </div>
+      <div class="lower-half">
+        <div class="email">
+          <input type="email" name="" id="">
+        </div>
+        <div class="submit">Submit</div>
       </div>
     </div>
-
-    <!-- Section 1 (Landing Page) -->
-    <section class="section-1">
-      <div class="bg-image">
-        <picture>
-          <source srcset="images/bg/desktop/lalala.png" media="(min-width: 800px)" />
-          <img loading="lazy" src="images/bg/desktop/lalala.png" alt="Placeholder image of car" />
-        </picture>
-      </div>
-
-      <!-- Section 1 (Landing Page) content -->
-      <h1>You are special. <br />Electric.</h1>
-      <form class="newsletter-main" method="post" action="index.html">
+    <!-- <form class="newsletter-main" method="post" action="index.html">
         <label for="email">Subscribe to receive exclusive updates!</label>
         <input type="email" name="newsletter-email" id="newsletter-email" placeholder="your@email.com" required />
         <button type="submit">Subscribe</button>
-      </form>
-    </section>
+      </form> -->
+  </section>
 
-    <!-- Section 2 -->
-    <section class="section-2">
-      <div class="bg-image">
-        <picture>
-          <source srcset="images/bg/desktop/Bil.png" media="(min-width: 800px)" />
-          <img loading="lazy" src="images/bg/desktop/Bil.png" alt="Placeholder image of car" />
-        </picture>
-      </div>
+  <!-- Section 2 -->
+  <section class="section-2">
+    <div class="bg-image">
+      <picture>
+        <source srcset="images/bg/desktop/Bil.png" media="(min-width: 800px)" />
+        <img loading="lazy" src="images/bg/desktop/Bil.png" alt="Placeholder image of car" />
+      </picture>
+    </div>
 
-      <!-- Section 2 content -->
-      <h1>Experience <br />Wow such experience</h1>
-    </section>
+    <!-- Section 2 content -->
+    <h1>Experience <br />Wow such experience</h1>
+  </section>
 
-    <!-- Grid section -->
-    <section class="grid-section">
-      <div class="grid">
-        <div class="grid-item1"></div>
-        <div class="grid-item2"></div>
-        <div class="grid-item3">
-          <div class="expand">
-            <button>
-              <p>More</p>
-              <img src="./images/carbon_chevron-down-shadow.svg" alt="" />
-            </button>
-          </div>
+  <!-- Grid section -->
+  <section class="grid-section">
+    <div class="grid">
+      <div class="grid-item1"></div>
+      <div class="grid-item2"></div>
+      <div class="grid-item3">
+        <div class="expand">
+          <button>
+            <p>More</p>
+            <img src="./images/carbon_chevron-down-shadow.svg" alt="" />
+          </button>
         </div>
-        <div class="grid-item4"></div>
-        <div class="grid-item5"></div>
-        <div class="grid-item6"></div>
       </div>
-    </section>
+      <div class="grid-item4"></div>
+      <div class="grid-item5"></div>
+      <div class="grid-item6"></div>
+    </div>
+  </section>
 
-    <!-- Section 3 -->
-    <section class="section-3">
-      <div class="bg-image">
-        <picture>
-          <source srcset="images/bg/desktop/Förslag3.jpg" media="(min-width: 800px)" />
-          <img loading="lazy" src="images/bg/desktop/Förslag3.jpg" alt="Placeholder image of car" />
-        </picture>
-      </div>
-      <!-- Section 3 content -->
-      <h1>Future <br />Wow much future</h1>
-      <h2>Over here too wow</h2>
-    </section>
+  <!-- Section 3 -->
+  <section class="section-3">
+    <div class="bg-image">
+      <picture>
+        <source srcset="images/bg/desktop/Förslag3.jpg" media="(min-width: 800px)" />
+        <img loading="lazy" src="images/bg/desktop/Förslag3.jpg" alt="Placeholder image of car" />
+      </picture>
+    </div>
+    <!-- Section 3 content -->
+    <h1>Future <br />Wow much future</h1>
+    <h2>Over here too wow</h2>
+  </section>
 
-    <!-- Section 4 start -->
-    <section class="section-4">
-      <div class="bg-image">
-        <img loading="lazy" src="images/bg/color/desktop/Studio_bil_blå.png" alt="product" />
-      </div>
+  <!-- Section 4 start -->
+  <section class="section-4">
+    <div class="bg-image">
+      <img loading="lazy" src="images/bg/color/desktop/Studio_bil_blå.png" alt="product" />
+    </div>
 
-      <!-- Section 4 content -->
-      <div class="color-buttons">
-        <label class="blue">
-          <input type="radio" name="color" value="blue" />
-          <div class="button"><span></span></div>
-        </label>
-        <label class="red">
-          <input type="radio" name="color" value="red" />
-          <div class="button"><span></span></div>
-        </label>
-        <label class="yellow">
-          <input type="radio" name="color" value="yellow" />
-          <div class="button"><span></span></div>
-        </label>
-        <label class="white">
-          <input type="radio" name="color" value="white" />
-          <div class="button"><span></span></div>
-        </label>
-      </div>
-    </section>
+    <!-- Section 4 content -->
+    <div class="color-buttons">
+      <label class="blue">
+        <input type="radio" name="color" value="blue" />
+        <div class="button"><span></span></div>
+      </label>
+      <label class="red">
+        <input type="radio" name="color" value="red" />
+        <div class="button"><span></span></div>
+      </label>
+      <label class="yellow">
+        <input type="radio" name="color" value="yellow" />
+        <div class="button"><span></span></div>
+      </label>
+      <label class="white">
+        <input type="radio" name="color" value="white" />
+        <div class="button"><span></span></div>
+      </label>
+    </div>
+  </section>
 
-    <script src="js/bookingPopup.js"></script>
-    <script src="js/colorPicker.js"></script>
-    <script src="js/gridExpand.js"></script>
-    <script src="js/intersect.js"></script>
-    <script src="js/navbarScroll.js"></script>
-    <!-- <script src="js/scrollArrow.js"></script> -->
-  </body>
+  <script src="js/bookingPopup.js"></script>
+  <script src="js/colorPicker.js"></script>
+  <script src="js/gridExpand.js"></script>
+  <script src="js/intersect.js"></script>
+  <script src="js/navbarScroll.js"></script>
+  <!-- <script src="js/scrollArrow.js"></script> -->
+</body>
+
 </html>
