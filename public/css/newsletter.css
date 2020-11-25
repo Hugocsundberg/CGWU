@@ -1,5 +1,5 @@
 section.section-1 .newsletter {
-    height: 8rem;
+    height: 6rem;
     width: 25rem;
     background: #162133c5;
     backdrop-filter: blur(3px);
@@ -23,7 +23,10 @@ section.section-1 .newsletter {
 section.section-1 .newsletter .upper-half{
     padding: 0 1rem;
     position: relative;
-    height: 4rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 section.section-1 .newsletter .upper-half p{
@@ -32,7 +35,7 @@ section.section-1 .newsletter .upper-half p{
 
 section.section-1 .newsletter .lower-half {
     position: relative;
-    height: 4rem;
+    height: 3rem;
     display: flex;
     flex-direction: row;
 }
@@ -46,6 +49,8 @@ section.section-1 .newsletter .lower-half .email input {
     padding-right: 0;
     width: 100%;
     height: 100%;
+    background: #e9e9e9c5;
+    backdrop-filter: blur(3px);
 }
 
 section.section-1 .newsletter .lower-half .submit {
@@ -56,6 +61,7 @@ section.section-1 .newsletter .lower-half .submit {
     align-items: center;
     background-color: var(--accent-orange);
     transition: .3s;
+    position: relative;
 }
 
 section.section-1 .newsletter .lower-half .submit:hover {
