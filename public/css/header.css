@@ -16,6 +16,13 @@
   filter: invert(100%);
 }
 
+.nav-bar ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
 .nav-bar select {
   text-transform: uppercase;
   border: 0;
@@ -25,12 +32,10 @@
   margin-bottom: 0.5rem;
 }
 
-.nav-bar select:hover {
-  color: var(--accent-blue);
-}
-
-.nav-bar a:hover {
-  color: var(--accent-blue);
+.nav-bar select:hover,
+a:hover {
+  color: var(--accent-orange);
+  cursor: pointer;
 }
 
 .opacity {
