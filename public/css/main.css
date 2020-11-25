@@ -94,7 +94,7 @@ section {
 }
 
 .sectionActive {
-  animation: fadeIn 0.8s forwards;
+  animation: fadeIn 2s both;
 }
 
 @keyframes fadeIn {
@@ -108,7 +108,25 @@ section {
   }
 }
 
+.delayFadeIn {
+  animation: fadeIn 2s 2s both;
+}
+
 .scrollKeeper {
   height: 1px;
   content: '';
 }
+
+@media only screen and (min-width: 800px) {
+  .section-2 h1 {
+    text-align: left;
+    padding-top: 10vh;
+    margin-left: 5vw;
+  }
+
+  .section-2 .content-box {
+    margin-left: 60%;
+  }
+}
+
+
