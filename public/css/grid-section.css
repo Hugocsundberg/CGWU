@@ -78,7 +78,7 @@ section.grid-section .grid .expand button img {
   height: 2rem;
   width: 2rem;
   position: relative;
-  transition: 0.7s;
+  transition: 2s;
 }
 
 @media (min-width: 800px) {
