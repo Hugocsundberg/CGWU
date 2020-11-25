@@ -5,9 +5,7 @@ observerCallback = (entries) => {
             entry.target.classList.add('sectionActive')
             try {
                 for (i = 0; i < entry.target.children.length; i++) {
-                    console.log(entry.target.children[i])
                     if (entry.target.children[i].classList.contains('content-box-container')) {
-                        console.log(`this one contains the thing: ${entry.target.children[i]}`)
                         entry.target.children[i].children[0].classList.add('delayFadeIn')
                     }
                 }
