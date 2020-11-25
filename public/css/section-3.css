@@ -7,7 +7,7 @@
 
 .section-3 h1 {
   text-align: center;
-  color: var(--black);
+  color: var(--white);
   width: 85%;
   padding-top: 15vh;
   line-height: 1.5;
@@ -28,6 +28,7 @@
   .section-3 h1 {
     text-align: right;
     padding-top: 25vh;
+    padding-right: 4rem;
   }
   .section-3 h2 {
     display: flex;

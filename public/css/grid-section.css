@@ -3,44 +3,42 @@
 }
 
 section.grid-section .grid {
-    display: grid;
-    height: 200vh;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(6, 16.66666%);
+  display: grid;
+  height: 200vh;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(6, 16.66666%);
 }
 
 section.grid-section .grid-item1 {
-  background: url(/public/images/grid/Förslag1.jpg);
+  background: url(/public/images/grid/1/Example3.jpg);
   background-size: cover;
   background-position: center;
 }
 section.grid-section .grid-item2 {
-  background: url(/public/images/grid/Förslag2.jpg);
+  background: var(--main);
   background-size: cover;
   background-position: center;
 }
 section.grid-section .grid-item3 {
-  background: url(/public/images/grid/Förslag3.jpg);
+  background: url(/public/images/grid/1/Example4.jpg);
   background-size: cover;
   background-position: center;
 }
 section.grid-section .grid-item4 {
-  background: url(/public/images/grid/Förslag4.jpg);
+  background: var(--main);
   background-size: cover;
   background-position: center;
 }
 section.grid-section .grid-item5 {
-  background: url(/public/images/grid/Förslag_extra_miljö.png);
+  background: url(/public/images/grid//1/Example5.jpg);
   background-size: cover;
   background-position: center;
 }
 section.grid-section .grid-item6 {
-  background: url(/public/images/grid/Bildpåinsidan3.png);
+  background: var(--main);
   background-size: cover;
   background-position: center;
 }
-
-
 
 .opacity0 {
   opacity: 0;
@@ -109,32 +107,32 @@ section.grid-section2 .grid {
 }
 
 section.grid-section2 .grid-item7 {
-  background: url(/public/images/grid/Förslag1.jpg);
+  background: var(--main);
   background-size: cover;
   background-position: center;
 }
 section.grid-section2 .grid-item8 {
-  background: url(/public/images/grid/Förslag2.jpg);
+  background: url(/public/images/grid/2/Interior1.png);
   background-size: cover;
   background-position: center;
 }
 section.grid-section2 .grid-item9 {
-  background: url(/public/images/grid/Förslag3.jpg);
+  background: var(--main);
   background-size: cover;
   background-position: center;
 }
 section.grid-section2 .grid-item10 {
-  background: url(/public/images/grid/Förslag4.jpg);
+  background: url(/public/images/grid/2/Interior2.png);
   background-size: cover;
   background-position: center;
 }
 section.grid-section2 .grid-item11 {
-  background: url(/public/images/grid/Förslag_extra_miljö.png);
+  background: var(--main);
   background-size: cover;
   background-position: center;
 }
 section.grid-section2 .grid-item12 {
-  background: url(/public/images/grid/Bildpåinsidan3.png);
+  background: url(/public/images/grid/2/Interior3.png);
   background-size: cover;
   background-position: center;
 }
@@ -191,4 +189,3 @@ section.grid-section2 .grid .expand button img {
     display: none;
   }
 }
-

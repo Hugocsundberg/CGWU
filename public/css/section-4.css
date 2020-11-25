@@ -44,17 +44,17 @@
 }
 
 .blue .button span {
-  background: #3f51b5;
+  background: var(--accent-blue);
 }
 
 .red .button span {
-  background: #ff2222;
+  background: #ac1515;
 }
 
-.yellow .button span {
-  background: #ffc107;
+.green .button span {
+  background: #16af37;
 }
 
-.white .button span {
-  background: #ffffff;
+.gray .button span {
+  background: #4e4e4e;
 }
