@@ -1,11 +1,42 @@
 .section-3 {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
-.section-3 h1 {
+.border-btn {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 100%;
+  padding: 1.5rem;
+  cursor: pointer;
+  z-index: 1;
+  transition: 0.2s ease;
+}
+
+.border-btn:focus {
+  outline: none !important;
+}
+
+.border-btn:hover {
+  background: #266c9250;
+}
+
+.border-btn.left {
+  position: absolute;
+  top: 47%;
+  left: 36.5%;
+  transform: translateX(-50%); /*Added*/
+}
+
+.border-btn.right {
+  position: absolute;
+  top: 23.5%;
+  left: 53.5%;
+  transform: translateX(-50%); /*Added*/
+}
+
+/* .section-3 h1 {
   text-align: center;
   color: var(--white);
   width: 85%;
@@ -35,4 +66,4 @@
     text-align: left;
     margin-top: 0;
   }
-}
+} */

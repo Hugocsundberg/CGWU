@@ -10,7 +10,7 @@ section.grid-section .grid {
 }
 
 section.grid-section .grid-item1 {
-  background: url(/public/images/grid/1/Example3.jpg);
+  background: url(/public/images/bg/grid/1/Example3.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -20,7 +20,7 @@ section.grid-section .grid-item2 {
   background-position: center;
 }
 section.grid-section .grid-item3 {
-  background: url(/public/images/grid/1/Example4.jpg);
+  background: url(/public/images/bg/grid/1/Example4.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -30,7 +30,7 @@ section.grid-section .grid-item4 {
   background-position: center;
 }
 section.grid-section .grid-item5 {
-  background: url(/public/images/grid//1/Example5.jpg);
+  background: url(/public/images/bg/grid/1/Example5.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -112,7 +112,7 @@ section.grid-section2 .grid-item7 {
   background-position: center;
 }
 section.grid-section2 .grid-item8 {
-  background: url(/public/images/grid/2/Interior1.png);
+  background: url(/public/images/bg/grid/2/Interior1.png);
   background-size: cover;
   background-position: center;
 }
@@ -122,7 +122,7 @@ section.grid-section2 .grid-item9 {
   background-position: center;
 }
 section.grid-section2 .grid-item10 {
-  background: url(/public/images/grid/2/Interior2.png);
+  background: url(/public/images/bg/grid/2/Interior2.png);
   background-size: cover;
   background-position: center;
 }
@@ -132,7 +132,7 @@ section.grid-section2 .grid-item11 {
   background-position: center;
 }
 section.grid-section2 .grid-item12 {
-  background: url(/public/images/grid/2/Interior3.png);
+  background: url(/public/images/bg/grid/2/Interior3.png);
   background-size: cover;
   background-position: center;
 }

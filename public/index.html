@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/section-3.css" />
     <link rel="stylesheet" href="css/section-4.css" />
     <link rel="stylesheet" href="css/section-5.css" />
+    <link rel="stylesheet" href="css/section-6.css" />
     <link rel="stylesheet" href="css/typography.css" />
     <link rel="stylesheet" href="css/newsletter.css" />
     <link rel="stylesheet" href="css/content-box.css" />
@@ -29,7 +30,7 @@
         <img src="images/logo/logo.png" alt="placeholder logo" />
         <ul>
           <li><a href="" id="bookingBtn">Booking</a></li>
-          <li><a href="" id="merchBtn">Merch</a></li>
+          <li><a href="#merch" id="merchBtn">Merch</a></li>
           <li>
             <select>
               <option value="english">EN</option>
@@ -101,7 +102,6 @@
       </div>
 
       <!-- Section 2 content -->
-      <h1>Experience <br />Wow such experience</h1>
       <div class="content-box-container">
         <div class="content-box">
           <h1>Lorem Ipsum</h1>
@@ -129,17 +129,16 @@
       </div>
     </section>
 
-    <!-- Section 3 -->
+    <!-- Section 3 (Tech Demo) start -->
     <section class="section-3">
       <div class="bg-image">
-        <picture>
-          <source srcset="images/bg/desktop/Keyfob-merch.png" media="(min-width: 800px)" />
-          <img loading="lazy" src="images/bg/desktop/Keyfob-merch.png" alt="Merchandise keyfob" />
-        </picture>
+        <img loading="lazy" src="images/bg/desktop/Tech1.png" alt="Merchandise keyfob" />
       </div>
       <!-- Section 3 content -->
-      <h1>Future <br />Wow much future</h1>
-      <h2>Over here too wow</h2>
+      <div classs="tech-buttons">
+        <button id="left" class="border-btn left"></button>
+        <button id="right" class="border-btn right"></button>
+      </div>
     </section>
 
     <!-- Grid section 2 -->
@@ -161,12 +160,12 @@
       </div>
     </section>
 
-    <!-- Section 4 start -->
+    <!-- Section 4 (Color Picker) start -->
     <section class="section-4">
       <div class="bg-image">
         <img loading="lazy" src="images/bg/color/Studio-blue.png" alt="product" />
       </div>
-
+      .color-buttons label .button
       <!-- Section 4 content -->
       <div class="color-buttons">
         <label class="blue">
@@ -188,8 +187,26 @@
       </div>
     </section>
 
-    <!-- Footer Section (Section 5) start -->
-    <section class="section-5">
+    <!-- Section 5 (Merchandise) -->
+    <section class="section-5" id="merch">
+      <div class="bg-image">
+        <picture>
+          <source srcset="images/bg/desktop/Keyfob-merch.png" media="(min-width: 800px)" />
+          <img loading="lazy" src="images/bg/desktop/Keyfob-merch.png" alt="Woman next to the car taking a picture of the landscape" />
+        </picture>
+      </div>
+
+      <!-- Section 5 content -->
+      <div class="content-box-container">
+        <div class="content-box">
+          <h1>Lorem Ipsum</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero deleniti amet repellendus laborum architecto magnam saepe aperiam</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section (Section 6/Contact) start -->
+    <section class="section-6">
       <!-- <div class="bg-image">
         <img loading="lazy" src="images/bg/desktop/footer-background-01.jpg" alt="" />
       </div> -->
@@ -199,7 +216,7 @@
         <p>
           Peugeot is a brand with history. The first car to carry the Peugeot name was unveiled in 1889, making Peugeot the world's second oldest car
           manufacturer and the oldest continuous car brand. Family business is now a global business. Today we are starting a new chapter.
-          <br /><br /><strong>Electric</strong>, it is the future
+          <br /><br /><strong>Electric</strong>, it is the future.
         </p>
       </article>
 
@@ -229,6 +246,7 @@
     <script src="js/gridExpand2.js"></script>
     <script src="js/intersect.js"></script>
     <script src="js/navbarScroll.js"></script>
+    <script src="js/tech.js"></script>
     <!-- <script src="js/scrollArrow.js"></script> -->
   </body>
 </html>

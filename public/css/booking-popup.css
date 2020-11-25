@@ -12,7 +12,6 @@
 }
 
 .popup-content {
-  /* height: 60%; */
   width: 80%;
   border-radius: 20px;
   position: relative;
@@ -52,14 +51,14 @@
   border-radius: 5px;
   border: none;
 }
-
+/* X-button */
 .close-btn {
   position: absolute;
   cursor: pointer;
-  left: 5px;
-  top: 5px;
-  width: 32px;
-  height: 32px;
+  left: 10px;
+  top: 10px;
+  width: 30px;
+  height: 30px;
   opacity: 0.6;
 }
 .close-btn:hover {

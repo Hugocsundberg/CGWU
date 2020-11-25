@@ -27,6 +27,6 @@ document.getElementById('close').addEventListener('click', (e) => {
 });
 
 // Preventing the page scrolling back to top if Merch in the navigation bar is clicked.
-document.getElementById('merchBtn').addEventListener('click', (e) => {
-  e.preventDefault();
-});
+// document.getElementById('merchBtn').addEventListener('click', (e) => {
+//   e.preventDefault();
+// });
