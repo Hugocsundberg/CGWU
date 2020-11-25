@@ -1,6 +1,29 @@
 const gridExpandButton = document.querySelector('section.grid-section .grid .expand button')
 const gridSection = document.querySelector('section.grid-section')
 
+if (window.innerWidth > 800) {
+    document.querySelectorAll('.showOnLoad').forEach((element) => {
+        element.classList.remove('opacity0')
+    })
+    document.querySelectorAll('.showOnLoad2').forEach((element) => {
+        element.classList.remove('opacity0')
+    })
+
+}
+
+window.addEventListener('resize', (e) => {
+    if (window.innerWidth > 800) {
+        document.querySelectorAll('.showOnLoad').forEach((element) => {
+            element.classList.remove('opacity0')
+        })
+        document.querySelectorAll('.showOnLoad2').forEach((element) => {
+            element.classList.remove('opacity0')
+        })
+
+    }
+})
+
+
 let gridIsExpanded = false
 gridExpandButton.addEventListener('click', () => {
     gridIsExpanded = gridIsExpanded ? false : true
