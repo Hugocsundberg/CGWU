@@ -7,7 +7,6 @@ section.grid-section .grid {
     height: 200vh;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 16.66666%);
-    background: rgb(151, 41, 41);
 }
 
 section.grid-section .grid-item1 {
@@ -39,6 +38,12 @@ section.grid-section .grid-item6 {
   background: url(/public/images/grid/Bildpåinsidan3.png);
   background-size: cover;
   background-position: center;
+}
+
+
+
+.opacity0 {
+  opacity: 0;
 }
 
 section.grid-section .grid .expand {
@@ -93,3 +98,97 @@ section.grid-section .grid .expand button img {
     display: none;
   }
 }
+
+/* Grid section 2 */
+
+section.grid-section2 .grid {
+  display: grid;
+  height: 200vh;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(6, 16.66666%);
+}
+
+section.grid-section2 .grid-item7 {
+  background: url(/public/images/grid/Förslag1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+section.grid-section2 .grid-item8 {
+  background: url(/public/images/grid/Förslag2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+section.grid-section2 .grid-item9 {
+  background: url(/public/images/grid/Förslag3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+section.grid-section2 .grid-item10 {
+  background: url(/public/images/grid/Förslag4.jpg);
+  background-size: cover;
+  background-position: center;
+}
+section.grid-section2 .grid-item11 {
+  background: url(/public/images/grid/Förslag_extra_miljö.png);
+  background-size: cover;
+  background-position: center;
+}
+section.grid-section2 .grid-item12 {
+  background: url(/public/images/grid/Bildpåinsidan3.png);
+  background-size: cover;
+  background-position: center;
+}
+
+section.grid-section2 .grid .expand {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  height: 6rem;
+  padding: 1rem;
+  justify-content: start;
+  align-items: center;
+  /* background: rgb(0, 255, 21); */
+}
+
+section.grid-section2 .grid .expand button {
+  border: none;
+  height: 100%;
+  width: 7rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  background: none;
+  cursor: pointer;
+}
+
+section.grid-section2 .grid .expand button p {
+  pointer-events: none;
+  top: 0;
+  position: relative;
+  font-size: 1.6rem;
+}
+
+section.grid-section2 .grid .expand button img {
+  pointer-events: none;
+  height: 2rem;
+  width: 2rem;
+  position: relative;
+  transition: 2s;
+}
+
+@media (min-width: 800px) {
+  section.grid-section2 .grid {
+    height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 50%);
+    background: black;
+  }
+
+  section.grid-section2 .grid .expand {
+    display: none;
+  }
+}
+
