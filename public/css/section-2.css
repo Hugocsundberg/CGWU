@@ -9,18 +9,27 @@
   text-align: center;
   color: var(--white);
   width: 85%;
-  padding-top: 15vh;
+  padding-top: 5vh;
   line-height: 1.5;
   z-index: 1;
 }
 
+.section-2 .content-box-container {
+  bottom: 15%;
+}
+
 .section-2 .content-box {
-  position: absolute;
+  position: relative;
   right: unset;
   bottom: unset;
-  top: 75%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  /* transform: translate(-50%, -50%); */
+}
+
+.section-2 .content-box h1 {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  color: var(--white);
 }
 
 
@@ -32,8 +41,7 @@
   }
 
   .section-2 .content-box {
-    right: 10%;
-    bottom: 15%;
+    margin-left: 60%;
   }
 }
 

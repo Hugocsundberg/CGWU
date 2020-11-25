@@ -1,3 +1,9 @@
+.content-box-container {
+    position: absolute;
+    width: 100%;
+    display: flex;
+}
+
 .content-box {
     /* height: 30rem; */
     width: 25rem;
@@ -8,6 +14,7 @@
     position: absolute;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     font-family: Helvetica; 
     box-shadow: 11px 10px 52px -12px rgba(0,0,0,0.75);
