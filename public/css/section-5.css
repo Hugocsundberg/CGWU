@@ -5,17 +5,9 @@
   justify-content: flex-start;
 }
 
-.section-5 h1 {
-  text-align: center;
-  color: var(--white);
-  width: 85%;
-  padding-top: 5vh;
-  line-height: 1.5;
-  z-index: 1;
-}
-
 .section-5 .content-box-container {
-  bottom: 15%;
+  bottom: 4.5%;
+  width: 90%;
 }
 
 .section-5 .content-box {
@@ -25,21 +17,21 @@
   /* transform: translate(-50%, -50%); */
 }
 
-.section-5 .content-box h1 {
+.section-5 .content-box h2 {
   margin: 0;
   padding: 0;
   position: relative;
   color: var(--white);
 }
 
-@media only screen and (min-width: 800px) {
-  .section-5 h1 {
-    text-align: left;
-    padding-top: 10vh;
-    margin-left: 5vw;
+@media only screen and (min-width: 700px) {
+  .section-5 .content-box-container {
+    bottom: 60%;
+    padding: 2rem 0 0 0;
+    width: 100%;
   }
 
   .section-5 .content-box {
-    margin-left: 60%;
+    margin-right: 65%;
   }
 }

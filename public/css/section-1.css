@@ -14,65 +14,24 @@
   z-index: 1;
 }
 
-.section-1 form {
-  background-color: #00000080;
-  text-align: center;
-  margin-top: 10vh;
-  width: 80%;
-  height: 6.5rem;
-  z-index: 1;
+.section-1 .content-box-container {
+  bottom: 50%;
 }
 
-.section-1 label {
-  text-align: center;
-  display: block;
-  color: white;
-  padding: 1rem;
-}
-
-.section-1 input {
-  all: unset;
-  text-align: left;
-  cursor: text;
-  background-color: var(--white);
-  padding-left: 0.5rem;
-  padding-right: 1rem;
-  width: 65%;
-  height: 2rem;
-}
-
-.section-1 button {
-  all: unset;
-  cursor: pointer;
-  background-color: var(--accent-orange);
-  font-size: 0.8rem;
-  width: 20%;
-  padding: 0.1rem;
-  height: 2rem;
-}
-.section-1 button:hover {
-  filter: brightness(125%);
-}
-
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 700px) {
   .section-1 {
     align-items: flex-start;
   }
+
   .section-1 h1 {
     text-align: right;
     width: 90%;
     margin-right: 5vw;
-    padding-bottom: 10vh;
+    padding-top: 15vh;
   }
-  .section-1 form {
-    width: 25%;
-    height: 8rem;
-    margin-left: 65vw;
-  }
-  .section-1 label {
-    text-align: right;
-  }
-  .section-1 input {
-    text-align: left;
+
+  .section-1 .content-box-container {
+    bottom: 45%;
+    width: 100%;
   }
 }

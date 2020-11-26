@@ -35,9 +35,3 @@ a {
   width: 100%;
   object-fit: cover;
 }
-
-.bg-image + h1 {
-  position: relative;
-  z-index: 1;
-  margin: 0;
-}

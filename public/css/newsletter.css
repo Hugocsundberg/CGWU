@@ -1,6 +1,6 @@
-section.section-1 .newsletter {
+.newsletter {
   height: 6rem;
-  width: 25rem;
+  width: 85%;
   background: #162133c5;
   backdrop-filter: blur(3px);
   border-radius: 20px;
@@ -9,17 +9,16 @@ section.section-1 .newsletter {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  font-family: Helvetica;
   box-shadow: 11px 10px 52px -12px rgba(0, 0, 0, 0.75);
 }
 
 .content-box-container {
-  bottom: 60%;
+  bottom: 55%;
   justify-content: center;
   align-items: center;
 }
 
-section.section-1 .newsletter .upper-half {
+.newsletter .upper-half {
   padding: 0 1rem;
   position: relative;
   height: 3rem;
@@ -28,22 +27,22 @@ section.section-1 .newsletter .upper-half {
   align-items: center;
 }
 
-section.section-1 .newsletter .upper-half p {
+.newsletter .upper-half p {
   color: var(--white);
 }
 
-section.section-1 .newsletter .lower-half {
+.newsletter .lower-half {
   position: relative;
   height: 3rem;
   display: flex;
   flex-direction: row;
 }
 
-section.section-1 .newsletter .lower-half .email {
+.newsletter .lower-half .email {
   width: 70%;
 }
 
-section.section-1 .newsletter .lower-half .email input {
+.newsletter .lower-half .email input {
   padding-left: 1rem;
   padding-right: 0;
   width: 100%;
@@ -52,7 +51,7 @@ section.section-1 .newsletter .lower-half .email input {
   backdrop-filter: blur(3px);
 }
 
-section.section-1 .newsletter .lower-half .submit {
+.newsletter .lower-half .submit {
   /* padding-left: 1rem; */
   width: 30%;
   display: flex;
@@ -64,13 +63,14 @@ section.section-1 .newsletter .lower-half .submit {
   cursor: pointer;
 }
 
-section.section-1 .newsletter .lower-half .submit:hover {
+.newsletter .lower-half .submit:hover {
   transform: scale(1.1);
   filter: brightness(1.1);
 }
 
-@media (min-width: 800px) {
-  section.section-1 .newsletter {
-    left: 60%;
+@media (min-width: 700px) {
+  .newsletter {
+    width: 25%;
+    left: 65%;
   }
 }

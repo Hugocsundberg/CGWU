@@ -50,6 +50,10 @@ label {
   margin-top: 8vh;
 }
 
+.section-6 .content-box-container {
+  bottom: 20%;
+}
+
 @media only screen and (min-width: 900px) {
   .section-6 {
     height: 60vh;
@@ -87,5 +91,10 @@ label {
 
   .section-6 .copyright {
     display: none;
+  }
+
+  .section-6 .content-box-container {
+    bottom: 40%;
+    margin-right: 40%;
   }
 }

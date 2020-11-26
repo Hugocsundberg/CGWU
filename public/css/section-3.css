@@ -30,15 +30,16 @@
   transform: translateX(-50%); /*Added*/
 }
 
- .section-3 .tech-image {
+.section-3 .tech-image {
   object-fit: contain;
 }
 
 .section-3 .content-box-container {
-  bottom: 20%;
+  bottom: 4.5%;
+  width: 90%;
 }
 
-.section-3 .content-box h1 {
+.section-3 .content-box h2 {
   margin: 0;
   padding: 0;
   position: relative;
@@ -46,20 +47,21 @@
 }
 
 .section-3 .content-box {
-  padding: .5rem;
+  position: relative;
+  right: unset;
+  bottom: unset;
+  /* transform: translate(-50%, -50%); */
 }
 
 @media only screen and (min-width: 1088px) {
-  .section-3 h1 {
-    text-align: left;
-    padding-top: 10vh;
-    margin-left: 5vw;
+  .section-3 .content-box-container {
+    bottom: 60%;
+    padding: 2rem 0 0 0;
+    width: 100%;
   }
 
   .section-3 .content-box {
-    position: absolute;
-    left: 60%;
-    transform: translate(-100%);
+    margin-right: 65%;
   }
 }
 
@@ -69,35 +71,3 @@
   left: 53.5%;
   transform: translateX(-50%); /*Added*/
 }
-
-/* .section-3 h1 {
-  text-align: center;
-  color: var(--white);
-  width: 85%;
-  padding-top: 15vh;
-  line-height: 1.5;
-  z-index: 1;
-}
-
-.section-3 h2 {
-  display: none;
-  text-align: center;
-  color: var(--black);
-  width: 85%;
-  line-height: 1.5;
-  z-index: 1;
-  font-size: 1.5rem;
-}
-
-@media only screen and (min-width: 800px) {
-  .section-3 h1 {
-    text-align: right;
-    padding-top: 25vh;
-    padding-right: 4rem;
-  }
-  .section-3 h2 {
-    display: flex;
-    text-align: left;
-    margin-top: 0;
-  }
-} */
