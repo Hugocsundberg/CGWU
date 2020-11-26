@@ -1,4 +1,4 @@
-![Let's be amazing together](https://media.giphy.com/media/3ohhwoy4AB7fXp0GVq/giphy.gif)
+![](https://media.giphy.com/media/iNjZMRbcxqtzi/giphy.gif)
 
 # Project Electric
 
@@ -23,7 +23,7 @@ The landing page should provide knowledge and inspiration and has **two main pur
 
    - Open the index.html file in your browser.
 
-2. Or simply visit [Coming soon...](https://github.com/Hugocsundberg/CGWU)
+2. Or simply visit https://electric-yrgo.netlify.app/.
 
    <br>
 
