@@ -1,252 +1,268 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Electric</title>
-    <link rel="stylesheet" href="css/booking-popup.css" />
-    <link rel="stylesheet" href="css/grid-section.css" />
-    <link rel="stylesheet" href="css/header.css" />
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/scroll-arrow.css" />
-    <link rel="stylesheet" href="css/section-1.css" />
-    <link rel="stylesheet" href="css/section-2.css" />
-    <link rel="stylesheet" href="css/section-3.css" />
-    <link rel="stylesheet" href="css/section-4.css" />
-    <link rel="stylesheet" href="css/section-5.css" />
-    <link rel="stylesheet" href="css/section-6.css" />
-    <link rel="stylesheet" href="css/typography.css" />
-    <link rel="stylesheet" href="css/newsletter.css" />
-    <link rel="stylesheet" href="css/content-box.css" />
-  </head>
 
-  <body>
-    <!-- This div is to keep scroll on top when first section animates-->
-    <div class="scrollKeeper"></div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Electric</title>
+  <link rel="stylesheet" href="css/booking-popup.css" />
+  <link rel="stylesheet" href="css/grid-section.css" />
+  <link rel="stylesheet" href="css/header.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/scroll-arrow.css" />
+  <link rel="stylesheet" href="css/section-1.css" />
+  <link rel="stylesheet" href="css/section-2.css" />
+  <link rel="stylesheet" href="css/section-3.css" />
+  <link rel="stylesheet" href="css/section-4.css" />
+  <link rel="stylesheet" href="css/section-5.css" />
+  <link rel="stylesheet" href="css/section-6.css" />
+  <link rel="stylesheet" href="css/typography.css" />
+  <link rel="stylesheet" href="css/newsletter.css" />
+  <link rel="stylesheet" href="css/content-box.css" />
+</head>
 
-    <header>
-      <!-- Navigation bar -->
-      <nav class="nav-bar">
-        <img src="images/logo/logo.png" alt="placeholder logo" />
-        <ul>
-          <li><a href="" id="bookingBtn">Booking</a></li>
-          <li><a href="#merch" id="merchBtn">Merch</a></li>
-          <li>
-            <select>
-              <option value="english">EN</option>
-              <option value="swedish">SE</option>
-            </select>
-          </li>
-        </ul>
-      </nav>
-    </header>
+<body>
+  <!-- This div is to keep scroll on top when first section animates-->
+  <div class="scrollKeeper"></div>
 
-    <!-- Scroll arrow -->
-    <div class="scroll-arrow-flex-container">
-      <div class="scroll-arrow"></div>
+  <header>
+    <!-- Navigation bar -->
+    <nav class="nav-bar">
+      <img src="images/logo/logo.png" alt="placeholder logo" />
+      <ul>
+        <li><a href="" id="bookingBtn">Booking</a></li>
+        <li><a href="#merch" id="merchBtn">Merch</a></li>
+        <li>
+          <select>
+            <option value="english">EN</option>
+            <option value="swedish">SE</option>
+          </select>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Scroll arrow -->
+  <div class="scroll-arrow-flex-container">
+    <div class="scroll-arrow"></div>
+  </div>
+
+  <!-- Booking popup window -->
+  <div class="popup">
+    <div class="popup-content">
+      <a href="" class="close-btn" id="close"></a>
+      <form method="post" action="index.html">
+        <h2><label for="email">Book test drive</label></h2>
+        <input type="text" name="name" id="name" placeholder="Name" required />
+        <input type="date" name="date" id="date" placeholder="Last name" required />
+        <input type="time" name="time" id="time" placeholder="Last name" required />
+        <input type="email" name="booking-email" id="booking-email" placeholder="email" required />
+        <button type="submit">Book</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Section 1 (Landing Page) -->
+  <section class="section-1">
+    <div class="bg-image">
+      <picture>
+        <source srcset="images/bg/desktop/Hero.png" media="(min-width: 800px)" />
+        <img loading="lazy" src="images/bg/desktop/Hero.png"
+          alt="Hero image of car standing in front of a mountain wall" />
+      </picture>
     </div>
 
-    <!-- Booking popup window -->
-    <div class="popup">
-      <div class="popup-content">
-        <a href="" class="close-btn" id="close"></a>
-        <form method="post" action="index.html">
-          <h2><label for="email">Book test drive</label></h2>
-          <input type="text" name="name" id="name" placeholder="Name" required />
-          <input type="date" name="date" id="date" placeholder="Last name" required />
-          <input type="time" name="time" id="time" placeholder="Last name" required />
-          <input type="email" name="booking-email" id="booking-email" placeholder="email" required />
-          <button type="submit">Book</button>
-        </form>
-      </div>
-    </div>
-
-    <!-- Section 1 (Landing Page) -->
-    <section class="section-1">
-      <div class="bg-image">
-        <picture>
-          <source srcset="images/bg/desktop/Hero.png" media="(min-width: 800px)" />
-          <img loading="lazy" src="images/bg/desktop/Hero.png" alt="Hero image of car standing in front of a mountain wall" />
-        </picture>
-      </div>
-
-      <!-- Section 1 (Landing Page) content -->
-      <h1>You are special. <br />Electric.</h1>
-      <div class="content-box-container">
-        <div class="newsletter">
-          <div class="upper-half">
-            <p>Subscribe to receive exclusive updates!</p>
+    <!-- Section 1 (Landing Page) content -->
+    <h1>You are special. <br />Electric.</h1>
+    <div class="content-box-container">
+      <div class="newsletter">
+        <div class="upper-half">
+          <p>Subscribe to receive exclusive updates!</p>
+        </div>
+        <div class="lower-half">
+          <div class="email">
+            <input type="email" name="" id="" />
           </div>
-          <div class="lower-half">
-            <div class="email">
-              <input type="email" name="" id="" />
-            </div>
-            <div class="submit">Submit</div>
-          </div>
+          <div class="submit">Submit</div>
         </div>
       </div>
-      <!-- <form class="newsletter-main" method="post" action="index.html">
+    </div>
+    <!-- <form class="newsletter-main" method="post" action="index.html">
         <label for="email">Subscribe to receive exclusive updates!</label>
         <input type="email" name="newsletter-email" id="newsletter-email" placeholder="your@email.com" required />
         <button type="submit">Subscribe</button>
       </form> -->
-    </section>
+  </section>
 
-    <!-- Section 2 -->
-    <section class="section-2">
-      <div class="bg-image">
-        <picture>
-          <source srcset="images/bg/desktop/Human.png" media="(min-width: 800px)" />
-          <img loading="lazy" src="images/bg/desktop//Human.png" alt="Woman next to the car taking a picture of the landscape" />
-        </picture>
+  <!-- Section 2 -->
+  <section class="section-2">
+    <div class="bg-image">
+      <picture>
+        <source srcset="images/bg/desktop/Human.png" media="(min-width: 800px)" />
+        <img loading="lazy" src="images/bg/desktop//Human.png"
+          alt="Woman next to the car taking a picture of the landscape" />
+      </picture>
+    </div>
+
+    <!-- Section 2 content -->
+    <div class="content-box-container">
+      <div class="content-box">
+        <h1>Lorem Ipsum</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero deleniti amet repellendus laborum architecto
+          magnam saepe aperiam</p>
       </div>
+    </div>
+  </section>
 
-      <!-- Section 2 content -->
-      <div class="content-box-container">
-        <div class="content-box">
-          <h1>Lorem Ipsum</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero deleniti amet repellendus laborum architecto magnam saepe aperiam</p>
+  <!-- Grid section -->
+  <section class="grid-section">
+    <div class="grid">
+      <div class="grid-item1"></div>
+      <div class="grid-item2"></div>
+      <div class="grid-item3">
+        <div class="expand">
+          <button>
+            <p>More</p>
+            <img src="images/carbon_chevron-down-shadow.svg" alt="" />
+          </button>
         </div>
       </div>
-    </section>
+      <div class="grid-item4 showOnLoad opacity0"></div>
+      <div class="grid-item5 showOnLoad opacity0"></div>
+      <div class="grid-item6 showOnLoad opacity0"></div>
+    </div>
+  </section>
 
-    <!-- Grid section -->
-    <section class="grid-section">
-      <div class="grid">
-        <div class="grid-item1"></div>
-        <div class="grid-item2"></div>
-        <div class="grid-item3">
-          <div class="expand">
-            <button>
-              <p>More</p>
-              <img src="images/carbon_chevron-down-shadow.svg" alt="" />
-            </button>
-          </div>
-        </div>
-        <div class="grid-item4 showOnLoad opacity0"></div>
-        <div class="grid-item5 showOnLoad opacity0"></div>
-        <div class="grid-item6 showOnLoad opacity0"></div>
+  <!-- Section 3 (Tech Demo) start -->
+  <section class="section-3">
+    <div class="bg-image">
+      <img class="tech-image" loading="lazy" src="images/bg/desktop/TechNew.png" alt="Merchandise keyfob" />
+    </div>
+    <div class="content-box-container">
+      <div class="content-box">
+        <h1>Lorem Ipsum</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero deleniti amet repellendus laborum architecto
+          magnam saepe aperiam</p>
       </div>
-    </section>
+    </div>
+    <!-- Section 3 content -->
+    <!-- <div classs="tech-buttons">
+      <button id="left" class="border-btn left"></button>
+      <button id="right" class="border-btn right"></button>
+    </div> -->
+  </section>
 
-    <!-- Section 3 (Tech Demo) start -->
-    <section class="section-3">
-      <div class="bg-image">
-        <img loading="lazy" src="images/bg/desktop/Tech1.png" alt="Merchandise keyfob" />
-      </div>
-      <!-- Section 3 content -->
-      <div classs="tech-buttons">
-        <button id="left" class="border-btn left"></button>
-        <button id="right" class="border-btn right"></button>
-      </div>
-    </section>
-
-    <!-- Grid section 2 -->
-    <section class="grid-section2">
-      <div class="grid">
-        <div class="grid-item7"></div>
-        <div class="grid-item8"></div>
-        <div class="grid-item9">
-          <div class="expand">
-            <button>
-              <p>More</p>
-              <img src="./images/carbon_chevron-down-shadow.svg" alt="" />
-            </button>
-          </div>
-        </div>
-        <div class="grid-item10 showOnLoad2 opacity0"></div>
-        <div class="grid-item11 showOnLoad2 opacity0"></div>
-        <div class="grid-item12 showOnLoad2 opacity0"></div>
-      </div>
-    </section>
-
-    <!-- Section 4 (Color Picker) start -->
-    <section class="section-4">
-      <div class="bg-image">
-        <img loading="lazy" src="images/bg/color/Studio-blue.png" alt="product" />
-      </div>
-      .color-buttons label .button
-      <!-- Section 4 content -->
-      <div class="color-buttons">
-        <label class="blue">
-          <input type="radio" name="color" value="blue" />
-          <div class="button"><span></span></div>
-        </label>
-        <label class="red">
-          <input type="radio" name="color" value="red" />
-          <div class="button"><span></span></div>
-        </label>
-        <label class="green">
-          <input type="radio" name="color" value="green" />
-          <div class="button"><span></span></div>
-        </label>
-        <label class="gray">
-          <input type="radio" name="color" value="gray" />
-          <div class="button"><span></span></div>
-        </label>
-      </div>
-    </section>
-
-    <!-- Section 5 (Merchandise) -->
-    <section class="section-5" id="merch">
-      <div class="bg-image">
-        <picture>
-          <source srcset="images/bg/desktop/Keyfob-merch.png" media="(min-width: 800px)" />
-          <img loading="lazy" src="images/bg/desktop/Keyfob-merch.png" alt="Woman next to the car taking a picture of the landscape" />
-        </picture>
-      </div>
-
-      <!-- Section 5 content -->
-      <div class="content-box-container">
-        <div class="content-box">
-          <h1>Lorem Ipsum</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero deleniti amet repellendus laborum architecto magnam saepe aperiam</p>
+  <!-- Grid section 2 -->
+  <section class="grid-section2">
+    <div class="grid">
+      <div class="grid-item7"></div>
+      <div class="grid-item8"></div>
+      <div class="grid-item9">
+        <div class="expand">
+          <button>
+            <p>More</p>
+            <img src="./images/carbon_chevron-down-shadow.svg" alt="" />
+          </button>
         </div>
       </div>
-    </section>
+      <div class="grid-item10 showOnLoad2 opacity0"></div>
+      <div class="grid-item11 showOnLoad2 opacity0"></div>
+      <div class="grid-item12 showOnLoad2 opacity0"></div>
+    </div>
+  </section>
 
-    <!-- Footer Section (Section 6/Contact) start -->
-    <section class="section-6">
-      <!-- <div class="bg-image">
+  <!-- Section 4 (Color Picker) start -->
+  <section class="section-4">
+    <div class="bg-image">
+      <img loading="lazy" src="images/bg/color/Studio-blue.png" alt="product" />
+    </div>
+    .color-buttons label .button
+    <!-- Section 4 content -->
+    <div class="color-buttons">
+      <label class="blue">
+        <input type="radio" name="color" value="blue" />
+        <div class="button"><span></span></div>
+      </label>
+      <label class="red">
+        <input type="radio" name="color" value="red" />
+        <div class="button"><span></span></div>
+      </label>
+      <label class="green">
+        <input type="radio" name="color" value="green" />
+        <div class="button"><span></span></div>
+      </label>
+      <label class="gray">
+        <input type="radio" name="color" value="gray" />
+        <div class="button"><span></span></div>
+      </label>
+    </div>
+  </section>
+
+  <!-- Section 5 (Merchandise) -->
+  <section class="section-5" id="merch">
+    <div class="bg-image">
+      <picture>
+        <source srcset="images/bg/desktop/Keyfob-merch.png" media="(min-width: 800px)" />
+        <img loading="lazy" src="images/bg/desktop/Keyfob-merch.png"
+          alt="Woman next to the car taking a picture of the landscape" />
+      </picture>
+    </div>
+
+    <!-- Section 5 content -->
+    <div class="content-box-container">
+      <div class="content-box">
+        <h1>Lorem Ipsum</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero deleniti amet repellendus laborum architecto
+          magnam saepe aperiam</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section (Section 6/Contact) start -->
+  <section class="section-6">
+    <!-- <div class="bg-image">
         <img loading="lazy" src="images/bg/desktop/footer-background-01.jpg" alt="" />
       </div> -->
 
-      <article class="history">
-        <h2>History</h2>
-        <p>
-          Peugeot is a brand with history. The first car to carry the Peugeot name was unveiled in 1889, making Peugeot the world's second oldest car
-          manufacturer and the oldest continuous car brand. Family business is now a global business. Today we are starting a new chapter.
-          <br /><br /><strong>Electric</strong>, it is the future.
-        </p>
-      </article>
+    <article class="history">
+      <h2>History</h2>
+      <p>
+        Peugeot is a brand with history. The first car to carry the Peugeot name was unveiled in 1889, making Peugeot
+        the world's second oldest car
+        manufacturer and the oldest continuous car brand. Family business is now a global business. Today we are
+        starting a new chapter.
+        <br /><br /><strong>Electric</strong>, it is the future.
+      </p>
+    </article>
 
-      <form class="newsletter-main" method="post" action="index.html">
-        <label for="email">Subscribe to receive exclusive updates!</label><br />
-        <input type="email" name="newsletter-email" id="newsletter-email" placeholder="your@email.com" required />
-        <button type="submit">Subscribe</button>
-      </form>
+    <form class="newsletter-main" method="post" action="index.html">
+      <label for="email">Subscribe to receive exclusive updates!</label><br />
+      <input type="email" name="newsletter-email" id="newsletter-email" placeholder="your@email.com" required />
+      <button type="submit">Subscribe</button>
+    </form>
 
-      <div class="contact">
-        <h2>Contact</h2>
-        <ul class="contact-list">
-          <li>+12 34 567 891</li>
-          <li>
-            <strong><a href="mailto:business@electric.com">business@electric.com</a></strong>
-          </li>
-          <li>Adress 1, 123 45 Gothenburg</li>
-        </ul>
-      </div>
+    <div class="contact">
+      <h2>Contact</h2>
+      <ul class="contact-list">
+        <li>+12 34 567 891</li>
+        <li>
+          <strong><a href="mailto:business@electric.com">business@electric.com</a></strong>
+        </li>
+        <li>Adress 1, 123 45 Gothenburg</li>
+      </ul>
+    </div>
 
-      <p class="copyright">Electric © 2020 Copyright</p>
-    </section>
+    <p class="copyright">Electric © 2020 Copyright</p>
+  </section>
 
-    <script src="js/bookingPopup.js"></script>
-    <script src="js/colorPicker.js"></script>
-    <script src="js/gridExpand.js"></script>
-    <script src="js/gridExpand2.js"></script>
-    <script src="js/intersect.js"></script>
-    <script src="js/navbarScroll.js"></script>
-    <script src="js/tech.js"></script>
-    <!-- <script src="js/scrollArrow.js"></script> -->
-  </body>
+  <script src="js/bookingPopup.js"></script>
+  <script src="js/colorPicker.js"></script>
+  <script src="js/gridExpand.js"></script>
+  <script src="js/gridExpand2.js"></script>
+  <script src="js/intersect.js"></script>
+  <script src="js/navbarScroll.js"></script>
+  <script src="js/tech.js"></script>
+  <!-- <script src="js/scrollArrow.js"></script> -->
+</body>
+
 </html>

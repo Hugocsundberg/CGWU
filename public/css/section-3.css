@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background: black;
 }
 
 .border-btn {
@@ -27,6 +28,39 @@
   top: 47%;
   left: 36.5%;
   transform: translateX(-50%); /*Added*/
+}
+
+ .section-3 .tech-image {
+  object-fit: contain;
+}
+
+.section-3 .content-box-container {
+  bottom: 20%;
+}
+
+.section-3 .content-box h1 {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  color: var(--white);
+}
+
+.section-3 .content-box {
+  padding: .5rem;
+}
+
+@media only screen and (min-width: 1088px) {
+  .section-3 h1 {
+    text-align: left;
+    padding-top: 10vh;
+    margin-left: 5vw;
+  }
+
+  .section-3 .content-box {
+    position: absolute;
+    left: 60%;
+    transform: translate(-100%);
+  }
 }
 
 .border-btn.right {
