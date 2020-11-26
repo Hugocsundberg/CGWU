@@ -8,7 +8,7 @@
   width: 100vw;
   height: 4.5rem;
   z-index: 100;
-  padding: 1rem;
+  padding: 0 2.5rem 0 0.5rem;
 }
 
 .nav-bar img {
