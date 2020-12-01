@@ -10,6 +10,7 @@
   flex-direction: column;
   overflow: hidden;
   box-shadow: 11px 10px 52px -12px rgba(0, 0, 0, 0.75);
+  border: none;
 }
 
 .content-box-container {
@@ -25,6 +26,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 0;
+  padding: 0;
 }
 
 .newsletter .upper-half p {
@@ -36,6 +39,8 @@
   height: 3rem;
   display: flex;
   flex-direction: row;
+  border: 0;
+  padding: 0;
 }
 
 .newsletter .lower-half .email {
@@ -49,6 +54,8 @@
   height: 100%;
   background: #e9e9e9c5;
   backdrop-filter: blur(3px);
+  border: 0;
+  padding: 0;
 }
 
 .newsletter .lower-half .submit {
@@ -61,6 +68,7 @@
   transition: 0.3s;
   position: relative;
   cursor: pointer;
+  font-family: var(--font-content);
 }
 
 .newsletter .lower-half .submit:hover {

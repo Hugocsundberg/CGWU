@@ -139,6 +139,7 @@ section.grid-section .grid .expand button p {
   top: 0;
   position: relative;
   font-size: 1.6rem;
+  margin: 0;
 }
 
 section.grid-section .grid .expand button img {
@@ -232,6 +233,7 @@ section.grid-section2 .grid .expand button p {
   top: 0;
   position: relative;
   font-size: 1.6rem;
+  margin: 0;
 }
 
 section.grid-section2 .grid .expand button img {
