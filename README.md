@@ -15,15 +15,9 @@ The landing page should provide knowledge and inspiration and has **two main pur
 
   <br>
 
-## Installation Instructions
+## Application
 
-1. Clone down the project to your computer:
-
-   - `$ git clone https://github.com/Hugocsundberg/CGWU.git`
-
-   - Open the index.html file in your browser.
-
-2. Or simply visit https://electric-yrgo.netlify.app/.
+Link: https://electric-yrgo.netlify.app/.
 
    <br>
 
